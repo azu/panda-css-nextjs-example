@@ -2,7 +2,6 @@
 import { css } from "../../../styled-system/css";
 import { useState } from "react";
 import { Container } from "@/app/_layout/Container";
-import Image from "next/image";
 
 export default function ChildPage() {
     const [isHovered, setIsHovered] = useState(false)
@@ -41,7 +40,7 @@ export default function ChildPage() {
         </button>
 
         <div>
-            <Image className={css({
+            <img className={css({
                 display: "inline",
                 width: "1/3",
                 border: "2px solid token(colors.green.100)",
