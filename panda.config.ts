@@ -17,6 +17,7 @@ export default defineConfig({
     // Enforce strict mode
     strictTokens: true,
     strictPropertyValues: true,
+    polyfill: true,
     // Useful for theme customization
     theme: {
         semanticTokens: {
